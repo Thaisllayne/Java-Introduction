@@ -5,6 +5,7 @@ public class CalcularIdade {
 	
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.print("Informe o ano de Nascimento:");

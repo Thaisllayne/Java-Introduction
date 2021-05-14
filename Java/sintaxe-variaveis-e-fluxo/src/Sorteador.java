@@ -7,6 +7,7 @@ public class Sorteador {
 		double numeroSorteado = Math.round(Math.random() * 10) ;
 		// System.out.println("Número sorteado: " + numeroSorteado);
 		
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Qual o número sorteado? Entre 0 e 10");

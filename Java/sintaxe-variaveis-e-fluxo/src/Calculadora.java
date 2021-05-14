@@ -4,6 +4,7 @@ public class Calculadora {
 	
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Informe um valor: ");
 		

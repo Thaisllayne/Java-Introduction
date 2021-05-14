@@ -4,6 +4,7 @@ public class VotoEleitoral {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Digite sua idade:");		
